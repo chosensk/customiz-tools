@@ -17,7 +17,7 @@
       name="register"
     >
       <a-input
-        placeholder="https://registry.npm.taobao.org"
+        placeholder="https://nexus3.tineco.com/repository/npm-group/"
         v-model:value="formState.register"
       />
     </a-form-item>
@@ -27,7 +27,7 @@
       name="database"
     >
       <a-input
-        placeholder="https://gitcode.net/rubickcenter/rubick-database/-/raw/master"
+        placeholder="https://gitlab.tineco.com/api/v4/projects/848/repository/files/"
         v-model:value="formState.database"
       />
     </a-form-item>
@@ -37,7 +37,7 @@
       name="access_token"
     >
       <a-input
-        :placeholder="$t('feature.settings.intranet.placeholder')"
+        placeholder="-sbXPpsqBNeVbvYViSG_"
         v-model:value="formState.access_token"
       />
     </a-form-item>
@@ -54,9 +54,9 @@ import { message } from 'ant-design-vue';
 let _rev: any;
 
 let defaultConfig = {
-  register: 'https://registry.npm.taobao.org',
-  database: 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master',
-  access_token: '',
+  register: 'https://nexus3.tineco.com/repository/npm-group/',
+  database: 'https://gitlab.tineco.com/api/v4/projects/848/repository/files/',
+  access_token: '-sbXPpsqBNeVbvYViSG_',
 };
 
 try {
@@ -80,9 +80,9 @@ const layout = {
 
 const resetForm = () => {
   formState.value = {
-    register: 'https://registry.npmmirror.com',
-    database: 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master',
-    access_token: '',
+    register: 'https://nexus3.tineco.com/repository/npm-group/',
+    database: 'https://gitlab.tineco.com/api/v4/projects/848/repository/files/',
+    access_token: '-sbXPpsqBNeVbvYViSG_',
   };
 };
 

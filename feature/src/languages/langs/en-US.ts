@@ -35,7 +35,7 @@ export default {
         title: 'Account And Setting',
         account: {
           accountInfo: 'Account Info',
-          tips1: 'rubick',
+          tips1: 'tTools',
           tips2:
             'After the software preferences are set, please restart the software. Please go to the mini program set avatar and nickname.',
           themeColor: 'Theme Setting',
@@ -92,7 +92,7 @@ export default {
         },
         intranet: {
           title: 'Intranet Deployment',
-          tips: "If publishing plug-ins to the public network npm does not meet your company's security requirements, rubick supports private network private sources and private plug-in libraries. If you need private network deployment, you can configure the following rules.",
+          tips: "If publishing plug-ins to the public network npm does not meet your company's security requirements, tTools supports private network private sources and private plug-in libraries. If you need private network deployment, you can configure the following rules.",
           npmMirror: 'npm mirror',
           dbUrl: 'database url',
           accessToken: 'access token',
@@ -107,7 +107,7 @@ export default {
       },
       dev: {
         title: 'Developer',
-        tips: 'The rubick plug-in system relies on npm management. Local debugging needs to first execute npm link in the current directory of the local plug-in.',
+        tips: 'The tTools plug-in system relies on npm management. Local debugging needs to first execute npm link in the current directory of the local plug-in.',
         pluginName: 'Plugin Name',
         install: 'Install',
         refreshPlugins: 'Refresh Plugins',

@@ -9,8 +9,8 @@ export default {
       successColor: '#c0d695',
       infoColor: '#aa8eeB',
       logo: `file://${__static}/logo.png`,
-      placeholder: '你好，Rubick！请输入插件关键词',
-      username: 'Rubick',
+      placeholder: '你好，tTools！请输入插件关键词',
+      username: 'tTools',
     },
     shortCut: {
       showAndHidden: 'Option+R',
