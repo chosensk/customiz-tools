@@ -18,24 +18,24 @@
           </template>
           {{ $t('feature.market.efficiency') }}
         </a-menu-item>
-        <a-menu-item key="tools">
-          <template #icon>
-            <SearchOutlined style="font-size: 18px;" />
-          </template>
-          {{ $t('feature.market.searchTool') }}
-        </a-menu-item>
-        <a-menu-item key="image">
-          <template #icon>
-            <FileImageOutlined style="font-size: 18px;" />
-          </template>
-          {{ $t('feature.market.imageTool') }}
-        </a-menu-item>
-        <a-menu-item key="devPlugin">
-          <template #icon>
-            <CodeOutlined style="font-size: 18px;" />
-          </template>
-          {{ $t('feature.market.developTool') }}
-        </a-menu-item>
+<!--        <a-menu-item key="tools">-->
+<!--          <template #icon>-->
+<!--            <SearchOutlined style="font-size: 18px;" />-->
+<!--          </template>-->
+<!--          {{ $t('feature.market.searchTool') }}-->
+<!--        </a-menu-item>-->
+<!--        <a-menu-item key="image">-->
+<!--          <template #icon>-->
+<!--            <FileImageOutlined style="font-size: 18px;" />-->
+<!--          </template>-->
+<!--          {{ $t('feature.market.imageTool') }}-->
+<!--        </a-menu-item>-->
+<!--        <a-menu-item key="devPlugin">-->
+<!--          <template #icon>-->
+<!--            <CodeOutlined style="font-size: 18px;" />-->
+<!--          </template>-->
+<!--          {{ $t('feature.market.developTool') }}-->
+<!--        </a-menu-item>-->
         <a-menu-item key="system">
           <template #icon>
             <DatabaseOutlined style="font-size: 18px;" />
@@ -72,7 +72,7 @@
         </a-sub-menu>
       </a-menu>
     </div>
-    <div :class="['finder', 'result', 'devPlugin', 'image', 'tools', 'worker', 'system'].includes(active[0]) ? 'container' : 'more'">
+    <div :class="['finder', 'result', 'worker', 'system'].includes(active[0]) ? 'container' : 'more'">
       <keep-alive>
         <router-view />
       </keep-alive>
@@ -86,10 +86,10 @@ import { useRouter } from 'vue-router';
 import {
   StarOutlined,
   SendOutlined,
-  SearchOutlined,
-  FileImageOutlined,
+  // SearchOutlined,
+  // FileImageOutlined,
   DatabaseOutlined,
-  CodeOutlined,
+  // CodeOutlined,
   SettingOutlined,
   HeartOutlined,
   BugOutlined,
@@ -118,9 +118,9 @@ window.rubick.setSubInput((e: any) => {
     [
       'finder',
       'result',
-      'devPlugin',
-      'image',
-      'tools',
+      // 'devPlugin',
+      // 'image',
+      // 'tools',
       'worker',
       'system',
     ].includes(active.value[0])

@@ -11,11 +11,11 @@ const routes: Array<RouteRecordRaw> = [
     name: 'devPlugin',
     component: () => import('../views/market/components/devlopment.vue'),
   },
-  {
-    path: '/image',
-    name: 'image',
-    component: () => import('../views/market/components/image.vue'),
-  },
+  // {
+  //   path: '/image',
+  //   name: 'image',
+  //   component: () => import('../views/market/components/image.vue'),
+  // },
   {
     path: '/tools',
     name: 'tools',
