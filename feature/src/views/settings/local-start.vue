@@ -29,7 +29,7 @@ import { ref } from 'vue';
 const fs = window.require('fs');
 const process = window.require('process');
 
-const dbId = 'rubick-local-start-app';
+const dbId = 'tangram-local-start-app';
 
 const localStartList = ref(window.rubick.dbStorage.getItem(dbId) || []);
 

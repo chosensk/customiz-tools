@@ -60,7 +60,7 @@ let defaultConfig = {
 };
 
 try {
-  const dbdata = window.rubick.db.get('rubick-localhost-config');
+  const dbdata = window.rubick.db.get('tangram-localhost-config');
   defaultConfig = dbdata.data;
   _rev = dbdata._rev;
 } catch (e) {
@@ -88,7 +88,7 @@ const resetForm = () => {
 
 const submit = () => {
   const changeData: any = {
-    _id: 'rubick-localhost-config',
+    _id: 'tangram-localhost-config',
     data: toRaw(formState.value),
   };
 

@@ -23,5 +23,5 @@ export const getLatestVersion = async (isCheckBetaUpdate = false) => {
   } catch (err) {
     console.log(err);
   }
-  return res;
+  return '0.0.1';
 };

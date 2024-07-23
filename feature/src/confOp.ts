@@ -1,4 +1,4 @@
-const LOCAL_CONFIG_KEY = 'rubick-local-config';
+const LOCAL_CONFIG_KEY = 'tangram-local-config';
 
 const localConfig = {
   getConfig(): Promise<any> {

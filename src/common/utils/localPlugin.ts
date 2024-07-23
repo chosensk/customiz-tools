@@ -12,7 +12,7 @@ let pluginInstance;
   try {
     const res = await API.dbGet({
       data: {
-        id: 'rubick-localhost-config',
+        id: 'tangram-localhost-config',
       },
     });
 
