@@ -1,7 +1,7 @@
 <template>
   <div class="guide-container">
     <div class="step0" v-show="step === 0">
-      <div class="title">您好，我叫 Rubick</div>
+      <div class="title">您好，我是tangram</div>
       <div class="desc">快捷键 <span class="down-line">Alt + R</span> 可以快速打开我</div>
       <div class="img-container">
         <img class="img" src="./assets/img.png" />
@@ -20,14 +20,14 @@
     </div>
     <div class="step0" v-show="step === 2">
       <div class="title"><span class="down-line">关键字</span>搜索应用和插件</div>
-      <div class="desc">搜索框内输入关键字可以搜索安装的应用和插件</div>
+      <div class="desc">进入已安装目录，查看与调用已安装的程序</div>
       <div class="img-container">
         <img class="img" src="./assets/img_2.png" />
       </div>
     </div>
     <div class="step0 step1" v-show="step === 3">
-      <div class="title">完全开源免费，支持内网部署</div>
-      <div class="desc">进入插件市场的 <span class="down-line">账户与设置</span> 菜单，进行内网部署设置</div>
+      <div class="title">内网部署</div>
+      <div class="desc">点击插件市场的 <span class="down-line">内网部署</span> 配置，点击确定后重启应用</div>
       <div class="img-container">
         <img class="img" src="./assets/img_3.png" />
       </div>

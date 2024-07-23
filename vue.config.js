@@ -30,8 +30,8 @@ module.exports = {
       ],
       // Use this to change the entry point of your app's render process. default src/[main|index].[js|ts]
       builderOptions: {
-        productName: 'rubick',
-        appId: 'com.muwoo.rubick',
+        productName: 'tangram',
+        appId: 'com.ibu.tangram',
         compression: 'maximum',
         // afterPack: './release.js',
         // afterAllArtifactBuild: () => {
@@ -47,8 +47,8 @@ module.exports = {
         publish: [
           {
             provider: 'github',
-            owner: 'rubickCenter',
-            repo: 'rubick',
+            owner: 'tangramCenter',
+            repo: 'tangram',
           },
         ],
         // files: ["dist_electron/**/*"],
@@ -75,7 +75,7 @@ module.exports = {
               arch: ['x64', 'arm64'],
             },
           ],
-          artifactName: 'rubick-${version}-${arch}.dmg',
+          artifactName: 'tangram-${version}-${arch}.dmg',
           gatekeeperAssess: false,
           entitlementsInherit: './release/entitlements.mac.plist',
           entitlements: './release/entitlements.mac.plist',
@@ -87,7 +87,7 @@ module.exports = {
         },
         win: {
           icon: 'public/icons/icon.ico',
-          artifactName: 'rubick-Setup-${version}-${arch}.exe',
+          artifactName: 'tangram-Setup-${version}-${arch}.exe',
           target: [
             {
               target: 'nsis',
@@ -96,7 +96,7 @@ module.exports = {
           ],
         },
         nsis: {
-          shortcutName: 'rubick',
+          shortcutName: 'tangram',
           oneClick: false,
           allowToChangeInstallationDirectory: true,
           include: 'public/installer.nsh',

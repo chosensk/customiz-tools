@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-let baseURL = 'https://gitcode.net/rubickcenter/rubick-database/-/raw/master';
-let access_token = '';
+let baseURL = 'https://gitlab.tineco.com/tool/ibu-tools-database/-/raw/master';
+let access_token = '-sbXPpsqBNeVbvYViSG_';
 
 try {
-  const dbdata = window.rubick.db.get('rubick-localhost-config');
+  const dbdata = window.rubick.db.get('tangram-localhost-config');
   baseURL = dbdata.data.database;
   access_token = dbdata.data.access_token;
 } catch (e) {

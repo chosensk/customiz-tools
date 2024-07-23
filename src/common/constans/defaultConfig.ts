@@ -1,5 +1,5 @@
 export default {
-  version: 7,
+  version: 4,
   perf: {
     custom: {
       theme: 'SPRING',
@@ -9,8 +9,8 @@ export default {
       successColor: '#c0d695',
       infoColor: '#aa8eeB',
       logo: `file://${__static}/logo.png`,
-      placeholder: '你好，tTools！请输入插件关键词',
-      username: 'tTools',
+      placeholder: '你好，tangram！请输入插件关键词',
+      username: 'tangram',
     },
     shortCut: {
       showAndHidden: 'Option+R',

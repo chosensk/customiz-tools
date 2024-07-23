@@ -35,7 +35,7 @@ export default {
         title: 'Account And Setting',
         account: {
           accountInfo: 'Account Info',
-          tips1: 'tTools',
+          tips1: 'tangram',
           tips2:
             'After the software preferences are set, please restart the software. Please go to the mini program set avatar and nickname.',
           themeColor: 'Theme Setting',

@@ -1,7 +1,7 @@
 {
-  "name": "rubick",
-  "version": "4.2.4",
-  "author": "muwoo <2424880409@qq.com>",
+  "name": "tangram",
+  "version": "0.0.5",
+  "author": "ke.shi <ke.shi@tineco.com>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -47,7 +47,7 @@ class AdapterHandler {
     try {
       const dbdata = ipcRenderer.sendSync('msg-trigger', {
         type: 'dbGet',
-        data: { id: 'rubick-localhost-config' },
+        data: { id: 'tangram-localhost-config' },
       });
       register = dbdata.data.register;
     } catch (e) {
